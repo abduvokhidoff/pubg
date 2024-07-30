@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 57px;
+    background-color: black;
+}
+.header_nav div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header_nav div select{
+    background-color: black;
+    border: none;
+    outline: none;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.2px;
+text-align: left;
+color: #fff;
+}
+.header_nav div button{
+    background-color: #F1A900;
+    padding: 26px 49px 24px 49px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.2px;
+text-align: left;
+color: black;
+border: none;
+outline: none;
+}
+.second_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 302px 13px 285px;
+    background-color: #222222;
+}
+.second_header select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+text-align: center;
+color: #fff;
+}
+.second_header a{
+    text-decoration: none;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+text-align: center;
+color: #fff;
+}
+main{
+    background-image: url(./assets/img/image\ 5\ \(1\).png);
+    background-size: cover;
+    height: 797px;
+    padding: 349px 211px 111px 263px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.box-1{
+display: flex;
+align-items: center;
+gap: 64px;
+justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1A900;
+width: 235px;
+height: 73px;
+}
+.card p{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+text-align: center;
+color: black;
+}
+.card-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 235px;
+    height: 73px;
+}
+.card-2 p{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+text-align: center;
+color: #fff;
+}
+.box{
+    padding: 31px 22px;
+    background: #F1A90054;
+border-radius: 10px;
+}
+.box h1{
+    font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77.45px;
+text-align: center;
+color: #fff;
+}
+footer{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 28px 57px;
+background-color: blackg;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
